@@ -1,0 +1,129 @@
+.new-design2020 .filtration__header-text {
+    color: #777777;
+}
+
+.new-design2020 .filtration__header {
+    background: #FFFFFF;
+    border: 1px solid rgba(190, 162, 103, 0.7);
+    padding: 9px 25px 9px 12px;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+.new-design2020 .filtration__header:hover .filtration__header-text {
+    color: #bea267;
+}
+
+.new-design2020 .filtration__header-arrow {
+    background: url(img/new-arrow-filtr.svg) center/100% auto no-repeat;
+    width: 11px;
+    height: 8px;
+}
+
+.filtration__header-wrapper {
+    position: relative;
+    padding-right: 9px;
+}
+
+.filtration__header-wrapper:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-right: 1px solid rgba(190, 162, 103, 0.7);
+    height: 500%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.new-design2020 .catalog-page__title {
+    margin-right: auto;
+    margin-left: -182px;
+}
+
+.new-design2020 .catalog-page__header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.new-design2020 .catalog-page_filterNo .catalog-page__title {
+    margin-left: -195px;
+}
+
+.containerWrapper p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #777777;
+    padding-left: 18px;
+}
+
+.containerWrapper a {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #bea267 !important;
+    text-decoration-color: #bea267 !important;
+}
+
+.new-design2020 .product-card__discounts {
+    background: rgba(34, 34, 34, .85);
+    border-radius: 0;
+    height: 29px;
+    width: 49px;
+    bottom: 0;
+    left: 0;
+    top: auto;
+}
+
+.new-design2020 .product-card__discounts span {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+    .containerWrapper p {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .new-design2020 .catalog-page__title {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .containerWrapper {
+        margin-top: 11px;
+    }
+
+    .containerWrapper p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #777777;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .new-design2020 .product-card__discounts {
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .new-design2020 .product-card__discounts span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .new-design2020 .catalog-page__switchGroup {
+        display: none;
+    }
+}

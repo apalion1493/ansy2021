@@ -1,0 +1,16 @@
+.new-design2020 .product-card__liked {
+    left: 30px;
+    right: auto;
+}
+
+.new-design2020 .product-card__discounts {
+    left: auto;
+    right: 0;
+}
+
+@media (max-width: 767.98px) {
+    .new-design2020 .product-card__liked {
+        left: 10px;
+        right: auto;
+    }
+}

@@ -6,6 +6,7 @@
 .new-design2020 .product-card__discounts {
     left: auto;
     right: 0;
+    background: rgba(34, 34, 34, .77);
 }
 
 @media (max-width: 767.98px) {
